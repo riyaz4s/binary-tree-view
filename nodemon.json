@@ -1,0 +1,9 @@
+
+
+{
+  "watch": ["src", "server"],
+  "ignore": ["src/**/*.test.ts", "public"],
+  "ext": "tsx,js,json,css,scss",
+  "exec": "rm -rf public/* && npm run build && npm run start",
+  "legacyWatch": true
+}
